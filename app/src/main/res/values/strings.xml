@@ -27,5 +27,11 @@
     <string name="invalid_login">
         Dados de login inválidos.
     </string>
+
+
+    <string name="app_name">ScrollView</string>
+    <string name="prompt_password">senhaentrar</string>
+    <string name="action_sign_in_short">senhanova</string>
+
 </resources>
 
