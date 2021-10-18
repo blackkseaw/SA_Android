@@ -30,9 +30,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void  voltarInicio(View view){
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(intent);
-    }
-
 }

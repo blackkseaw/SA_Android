@@ -8,4 +8,35 @@
         <item name="colorAccent">#000000</item>
     </style>
 
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:background">@drawable/containercompo</item>
+    </style>
+
+    <style name="Edit_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="Loginbt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/orangebutton</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="Yellow_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/yellow_box</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="Yellow_container_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
 </resources>
