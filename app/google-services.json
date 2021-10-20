@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654363763318",
+    "project_id": "os5pateta",
+    "storage_bucket": "os5pateta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654363763318:android:ac2c7ca9b5281c1a417557",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654363763318-3kid844qbipb4pe82fcjo5tpqur8bm3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFl6LD0nLFVqjgCkhcWR5oTL8BadYYh3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654363763318-3kid844qbipb4pe82fcjo5tpqur8bm3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

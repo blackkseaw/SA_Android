@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SAM</string>
     <!-- LoginActivity -->
-    <string name="usuario">Usuário</string>
+    <string name="usuario">Email</string>
     <string name="senha">Senha</string>
     <string name="login">Login</string>
     <string name="text_cadastro">Ainda não tem cadastro? Clique aqui</string>

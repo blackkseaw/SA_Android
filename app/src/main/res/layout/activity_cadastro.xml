@@ -32,8 +32,8 @@
         <View
             android:id="@+id/view"
             style="@style/ContainerComponents"
-            android:layout_width="match_parent"
-            android:layout_height="276dp"
+            android:layout_width="382dp"
+            android:layout_height="350dp"
             android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.218"
@@ -41,22 +41,38 @@
             app:layout_constraintTop_toBottomOf="@+id/text7" />
 
         <EditText
-            android:id="@+id/tLogin"
+            android:id="@+id/edit_email"
             style="@style/Edit_Text"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:drawableRight="@drawable/ic_user"
             android:ems="10"
-            android:hint="Usuário"
+            android:hint="Email"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/tSenha"
+            app:layout_constraintBottom_toTopOf="@+id/edit_senha"
             app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/edit_nome"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <EditText
+            android:id="@+id/edit_nome"
+            style="@style/Edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:drawableRight="@drawable/ic_user"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.465"
             app:layout_constraintStart_toStartOf="@+id/view"
             app:layout_constraintTop_toTopOf="@+id/view" />
 
         <EditText
-            android:id="@+id/tSenha"
+            android:id="@+id/edit_senha"
             style="@style/Edit_Text"
             android:layout_width="match_parent"
             android:layout_height="62dp"
@@ -66,13 +82,13 @@
             android:inputType="textPassword"
             app:layout_constraintBottom_toBottomOf="@+id/view"
             app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintHorizontal_bias="0.465"
             app:layout_constraintStart_toStartOf="@+id/view"
             app:layout_constraintTop_toTopOf="@+id/view"
-            app:layout_constraintVertical_bias="0.53" />
+            app:layout_constraintVertical_bias="0.687" />
 
         <Button
-            android:id="@+id/btLogin"
+            android:id="@+id/bt_cadastrar"
             style="@style/Loginbt"
             android:layout_width="match_parent"
             android:layout_height="47dp"
@@ -84,9 +100,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/view"
             app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.465"
             app:layout_constraintStart_toStartOf="@+id/view"
             app:layout_constraintTop_toBottomOf="@+id/tSenha"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.606" />
 
         <ProgressBar
             android:id="@+id/progressbar"
