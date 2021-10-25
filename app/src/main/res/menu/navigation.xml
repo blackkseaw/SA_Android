@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="UnusedNavigation">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/nav_parent"
+        android:icon="@drawable/ic_live_help_black_24dp"
+        android:title="@string/title_category"/>
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_person_pin_black_24dp"
+        android:title="@string/title_notifications"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/cat"
+        android:title="@string/title_profile"/>
+</menu>
