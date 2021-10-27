@@ -10,20 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".responsaveis"></activity>
-        <activity android:name=".instrucoes" />
-        <activity android:name=".sobre" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Cadastro" />
         <activity android:name=".CustomAdapter" />
         <activity
             android:name=".Main2Activity"
             tools:ignore="WrongManifestParent" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Main3Activity" />
     </application>

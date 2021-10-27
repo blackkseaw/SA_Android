@@ -22,36 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
-        bottomNav.setOnNavigationItemSelectedListener(navListener);
     }
-
-    private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Fragment selectFragment = null;
-
-            switch (item.getItemId()){
-                case R.id.nav_home:
-                    selectFragment = new HomeFragment();
-                    break;
-                case R.id.nav_parent:
-                    selectFragment = new ParentFragment();
-                    break;
-                case R.id.nav_about:
-                    selectFragment = new AboutFragment();
-                    break;
-                case R.id.nav_info:
-                        selectFragment = new InfoFragment();
-                    break;
-            }
-
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    selectFragment).commit();
-
-            return true;
-        }
-    };
 
     public void  main2(View view){
         Intent intent = new Intent(getApplicationContext(), Main2Activity.class);

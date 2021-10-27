@@ -3,15 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParentFragment"
-    android:background="@color/yellow_light">
+    tools:context=".ParentFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="RESPONSAVEIS"
-        android:gravity="center"
-        android:textSize="30dp"/>
+        android:layout_height="match_parent">
 
+        <include
+            layout="@layout/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
 </FrameLayout>

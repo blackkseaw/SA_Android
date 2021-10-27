@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/bluebutton"
-        android:src="@android:drawable/ic_menu_search"
+        android:src="@drawable/ic_brush"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/text11" />
@@ -27,7 +27,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/purplebutton"
-        android:src="@android:drawable/ic_menu_search"
+        android:src="@drawable/ic_face_white"
         app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text11" />
@@ -39,7 +39,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="44dp"
         android:background="@drawable/redbutton"
-        android:src="@android:drawable/ic_menu_search"
+        android:src="@drawable/ic_chat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toBottomOf="@+id/text11" />
@@ -52,7 +52,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="28dp"
         android:background="@drawable/greenbutton"
-        android:src="@android:drawable/ic_menu_search"
+        android:src="@drawable/ic_library_books"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintTop_toBottomOf="@+id/text11" />

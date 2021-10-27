@@ -14,24 +14,10 @@
         android:layout_above="@id/bottomNav">
     </FrameLayout>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="@color/orange_light"
-        android:fitsSystemWindows="true"
-        app:itemIconSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/navigation" />
-
     <include
         layout="@layout/index"
-        android:layout_width="410dp"
-        android:layout_height="672dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

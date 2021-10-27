@@ -50,15 +50,4 @@ public class Main2Activity extends AppCompatActivity {
             return true;
         }
     };
-
-    public void  main2(View view){
-        Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
-        startActivity(intent);
-    }
-
-    public void  main3(View view){
-        Intent intent = new Intent(getApplicationContext(), Main3Activity.class);
-        startActivity(intent);
-    }
-
 }
