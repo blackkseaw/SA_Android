@@ -5,57 +5,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    tools:context=".GamesActivity"
     android:background="@android:color/white">
 
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="0dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/bluebutton"
-        android:src="@drawable/ic_brush"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/text11" />
+<!--    <ImageButton-->
+<!--        android:onClick="OnLogico"-->
+<!--        android:id="@+id/logica"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:background="@drawable/bluebutton"-->
+<!--        android:src="@drawable/ic_brush"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/social"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/alfabeto"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="0dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/purplebutton"
-        android:src="@drawable/ic_face_white"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text11" />
+<!--    <ImageButton-->
+<!--        android:onClick="start_motora"-->
+<!--        android:id="@+id/motor"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginStart="44dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:background="@drawable/purplebutton"-->
+<!--        android:src="@drawable/ic_face_white"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="0dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="44dp"
-        android:background="@drawable/redbutton"
-        android:src="@drawable/ic_chat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/text11" />
+<!--    <ImageButton-->
+<!--        android:id="@+id/social"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        android:background="@drawable/redbutton"-->
+<!--        android:src="@drawable/ic_chat"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/logica"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="0dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/greenbutton"
-        android:src="@drawable/ic_library_books"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/text11" />
+<!--    <ImageButton-->
+<!--        android:onClick="start_alfabeto"-->
+<!--        android:id="@+id/alfabeto"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:background="@drawable/greenbutton"-->
+<!--        android:src="@drawable/ic_library_books"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/motor"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
 
     <TextView
         android:id="@+id/text11"
@@ -65,7 +67,6 @@
         android:text="O que quer aprender hoje?"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text5" />
 
@@ -132,5 +133,19 @@
         app:layout_constraintHorizontal_bias="0.193"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botaonovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="161dp"
+        android:onClick="teste"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

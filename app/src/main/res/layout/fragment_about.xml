@@ -2,16 +2,27 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="620dp"
     tools:context=".AboutFragment"
-    android:background="@color/blue">
+    android:background="@color/blue_light">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="87dp">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="SOBRE"
-        android:gravity="center"
-        android:textSize="30dp"/>
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
+
 
 </FrameLayout>

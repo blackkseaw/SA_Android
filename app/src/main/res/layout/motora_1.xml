@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/purple_light"
+        android:text="COORDENAÇÃO MOTORA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/text9"
+        style="@style/Yellow_container"
+        android:layout_width="363dp"
+        android:layout_height="563dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/purplesuperlight_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="315dp"
+        android:layout_height="554dp"
+        android:layout_above="@+id/buttongame"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="@string/motora1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text9"
+        app:layout_constraintEnd_toEndOf="@+id/text9"
+        app:layout_constraintStart_toStartOf="@+id/text9"
+        app:layout_constraintTop_toTopOf="@+id/text9"
+        app:layout_constraintVertical_bias="0.448" />
+</androidx.constraintlayout.widget.ConstraintLayout>

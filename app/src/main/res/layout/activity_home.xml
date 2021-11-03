@@ -9,17 +9,19 @@
 
     <Button
         android:id="@+id/button"
-        style="@style/LogoBorder"
-        android:outlineAmbientShadowColor="@color/yellow"
-        android:shadowColor="@color/yellow"
-        android:onClick="start_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/logo_sam"
+        android:onClick="start_app"
+        android:outlineAmbientShadowColor="@color/yellow"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="?android:attr/borderlessButtonStyle"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
