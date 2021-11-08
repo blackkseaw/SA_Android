@@ -39,4 +39,7 @@ public class Main3Activity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Cadastro.class);
         startActivity(intent);
     }
+    public void  voltar(View view){
+        finish();
+    }
 }

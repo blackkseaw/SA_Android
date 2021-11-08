@@ -24,13 +24,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginBottom="10dp"/>
 
     <View
         android:id="@+id/text9"
         style="@style/Yellow_container"
-        android:layout_width="363dp"
-        android:layout_height="563dp"
+        android:layout_width="365dp"
+        android:layout_height="607dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginBottom="150dp"
         android:background="@drawable/purplesuperlight_box"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +44,8 @@
         android:id="@+id/textView3"
         android:layout_width="315dp"
         android:layout_height="554dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_above="@+id/buttongame"
         android:layout_alignParentEnd="true"
         android:gravity="center"

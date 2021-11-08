@@ -9,59 +9,79 @@
     android:background="@android:color/white">
 
 
-<!--    <ImageButton-->
-<!--        android:onClick="OnLogico"-->
-<!--        android:id="@+id/logica"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="54dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:layout_marginEnd="28dp"-->
-<!--        android:background="@drawable/bluebutton"-->
-<!--        android:src="@drawable/ic_brush"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/social"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/alfabeto"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:onClick="voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
 
-<!--    <ImageButton-->
-<!--        android:onClick="start_motora"-->
-<!--        android:id="@+id/motor"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="54dp"-->
-<!--        android:layout_marginStart="44dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:background="@drawable/purplebutton"-->
-<!--        android:src="@drawable/ic_face_white"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        app:layout_constraintTop_toBottomOf="@+id/text11"
+        tools:layout_editor_absoluteX="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
-<!--    <ImageButton-->
-<!--        android:id="@+id/social"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="54dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:layout_marginEnd="44dp"-->
-<!--        android:background="@drawable/redbutton"-->
-<!--        android:src="@drawable/ic_chat"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/logica"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
+        <ImageButton
+            android:id="@+id/logica"
+            android:layout_margin="20dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bluebutton"
+            android:src="@drawable/ic_brush"
+            app:layout_constraintEnd_toStartOf="@+id/social"
+            app:layout_constraintTop_toBottomOf="@+id/text11" />
 
-<!--    <ImageButton-->
-<!--        android:onClick="start_alfabeto"-->
-<!--        android:id="@+id/alfabeto"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="54dp"-->
-<!--        android:layout_marginStart="28dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:layout_marginEnd="28dp"-->
-<!--        android:background="@drawable/greenbutton"-->
-<!--        android:src="@drawable/ic_library_books"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/motor"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/text11" />-->
+        <ImageButton
+            android:id="@+id/motor"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+
+            android:layout_margin="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/purplebutton"
+            android:src="@drawable/ic_face_white"
+            app:layout_constraintEnd_toStartOf="@+id/alfabeto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text11" />
+
+        <ImageButton
+            android:id="@+id/social"
+            android:layout_margin="20dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/redbutton"
+            android:src="@drawable/ic_chat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text11" />
+
+        <ImageButton
+            android:id="@+id/alfabeto"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/greenbutton"
+            android:src="@drawable/ic_library_books"
+            app:layout_constraintEnd_toStartOf="@+id/logica"
+            app:layout_constraintTop_toBottomOf="@+id/text11" />
+    </LinearLayout>
 
     <TextView
+        android:gravity="center"
         android:id="@+id/text11"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="O que quer aprender hoje?"
@@ -71,6 +91,8 @@
         app:layout_constraintTop_toBottomOf="@+id/text5" />
 
     <View
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/text5"
         style="@style/Yellow_container"
         android:layout_width="0dp"
@@ -88,6 +110,9 @@
         style="@style/Yellow_container_text"
         android:layout_width="335dp"
         android:layout_height="74dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text5"
@@ -100,8 +125,8 @@
         android:id="@+id/text10"
         android:layout_width="142dp"
         android:layout_height="27dp"
-
-        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Paulo Freire"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text5"
@@ -125,26 +150,23 @@
         android:id="@+id/text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Bem-vindo"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="161dp"
-        android:onClick="teste"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text11" />
+    <!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="72dp"-->
+<!--        android:onClick="btnvai"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/text11" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

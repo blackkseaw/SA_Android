@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/yellow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
 
 
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,6 +24,16 @@
     android:background="@color/yellow">
 
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:onClick="voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
 
     <TextView
         android:id="@+id/text7"
@@ -29,13 +45,13 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/text_tela_cadastro2"
         android:layout_width="301dp"
         android:layout_height="55dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="44dp"
         android:text="@string/text_dados"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,11 +119,10 @@
     <Button
         android:id="@+id/text_tela_cadastro"
         style="@style/Loginbt"
-        android:onClick="cadastro"
         android:layout_width="match_parent"
         android:layout_height="47dp"
-        android:layout_marginTop="4dp"
         android:background="@drawable/gradient"
+        android:onClick="cadastro"
         android:text="@string/text_cadastro"
         android:textColor="@color/white"
         android:textSize="15dp"
@@ -126,4 +141,5 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+    </ScrollView>
+</LinearLayout>

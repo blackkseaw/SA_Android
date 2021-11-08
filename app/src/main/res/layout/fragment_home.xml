@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParentFragment">
+    tools:context=".HomeFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -16,17 +16,21 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@color/white">
 
                 <include
-                    layout="@layout/motora"
+                    layout="@layout/games"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    />
 
                 <include
-                    layout="@layout/motora_1"
+                    layout="@layout/games2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"/>
 
             </LinearLayout>
 

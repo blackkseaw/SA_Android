@@ -14,11 +14,23 @@ public class GamesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.games);
-    }
 
-    public void  teste(View view){
-        Intent intent = new Intent(this, ButtonActivity.class);
-        startActivity(intent);
+
+//        final Button button = (Button) findViewById(R.id.button2);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Toast.makeText(GamesActivity.this, "Teste", Toast.LENGTH_SHORT).show();
+//                System.out.println("OK");
+//
+//                Intent activityChangeIntent = new Intent(GamesActivity.this, ParentFragment.class);
+//                GamesActivity.this.startActivity(activityChangeIntent);
+//            }
+//        });
+
+
+    }
+    public void  voltar(View view){
+        finish();
     }
 
 }
