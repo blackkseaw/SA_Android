@@ -1,20 +1,19 @@
-**XML**
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".popUp1">
+    android:background="@color/yellow"
+    tools:context=".PopUpActivity"
+    >
 
     <LinearLayout
         android:layout_width="334dp"
         android:layout_height="231dp"
         android:layout_gravity="center"
-        android:background="@drawable/yellow_box"
-        android:backgroundTint="@color/yellow_light"
+        android:background="@drawable/white_box"
         android:orientation="vertical"
         android:padding="10dip"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +60,7 @@
             android:background="@drawable/orangebutton"
             android:gravity="center"
             android:onClick="proximo1"
-            android:text="Conformar"
+            android:text="Confirmar"
             android:textColor="@color/black"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"

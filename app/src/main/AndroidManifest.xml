@@ -11,7 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".PopUpActivity"></activity>
-        <activity android:name=".SlideActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".MotorActivity" />
         <activity android:name=".Logico" />

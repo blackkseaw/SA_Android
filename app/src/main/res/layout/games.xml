@@ -21,62 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow" />
 
-    <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        app:layout_constraintTop_toBottomOf="@+id/text11"
-        tools:layout_editor_absoluteX="0dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/logica"
-            android:layout_margin="20dp"
-            android:layout_width="54dp"
-            android:layout_height="54dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/bluebutton"
-            android:src="@drawable/ic_brush"
-            app:layout_constraintEnd_toStartOf="@+id/social"
-            app:layout_constraintTop_toBottomOf="@+id/text11" />
-
-        <ImageButton
-            android:id="@+id/motor"
-            android:layout_width="54dp"
-            android:layout_height="54dp"
-
-            android:layout_margin="20dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/purplebutton"
-            android:src="@drawable/ic_face_white"
-            app:layout_constraintEnd_toStartOf="@+id/alfabeto"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text11" />
-
-        <ImageButton
-            android:id="@+id/social"
-            android:layout_margin="20dp"
-            android:layout_width="54dp"
-            android:layout_height="54dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/redbutton"
-            android:src="@drawable/ic_chat"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text11" />
-
-        <ImageButton
-            android:id="@+id/alfabeto"
-            android:layout_width="54dp"
-            android:layout_height="54dp"
-            android:layout_margin="20dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginEnd="24dp"
-            android:background="@drawable/greenbutton"
-            android:src="@drawable/ic_library_books"
-            app:layout_constraintEnd_toStartOf="@+id/logica"
-            app:layout_constraintTop_toBottomOf="@+id/text11" />
-    </LinearLayout>
 
     <TextView
         android:gravity="center"
