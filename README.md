@@ -11,16 +11,6 @@
 
 > Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P.
 
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [ ] Otimizar a conexão com o Firebase
-- [ ] Otimizar o jogo SamCome
-- [ ] Otimizar o jogo Quebra-Cabeça
-- [ ] Otimizar o jogo Qual Animal?
-- [ ] Programar todas as telas
-
 ## ☕ Sobre
 
 Nosso aplicativo consiste em um conjunto de jogos educacionais simples para crianças com TEA (Transtorno do Espectro Autista), onde ajudarão no desenvolvimento da criança, promovendo o aumento do raciocínio e auxílio no processo de alfabetização. Crianças com TEA possuem dificuldade comunicativa e o processo de aprendizagem é diferente, portanto é importante darmos a devida atenção para que ela se desenvolva corretamente. Existem diversos tipos de autismo: os que pensam e se comunicam por imagens e gostam de praticar atividades manuais, como pintar, costurar e cozinhar; os que pensam e se comunicam por palavras e fatos e gostam de decorar trechos de livros e diálogos de filmes, com facilidade e os que pensam e se comunicam por padrões e gostam de lego e matemática. Nosso aplicativo ajudará a identificar qual dos tipos de espectro autista citados acima a criança possui, além de fornecer as ferramentas necessárias para que ela cresça adequadamente.
