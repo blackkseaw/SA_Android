@@ -25,7 +25,7 @@ Nosso aplicativo consiste em um conjunto de jogos educacionais simples para cria
 <img src="https://cdn.discordapp.com/attachments/494996013837320193/909490207005474846/samlingua-sl.png" width="160px;" />
 
 
-## 🤝 Colaboradores
+## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="50px;" /> Colaboradores
 
 A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
@@ -33,11 +33,10 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > Desenvolvedora fullstack.
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/>
-<a>
-<img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="50px;" />
+
   
-[Linkedin][Linkedin1]
-</a>
+🎮[Linkedin][Linkedin1]
+
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
