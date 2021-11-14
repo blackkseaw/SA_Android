@@ -49,7 +49,6 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
     <td align="center">
       <a href="#">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        
         <sub>
           <b>Laura Ferrari</b>
         </sub>
