@@ -40,7 +40,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 ### Marcia Ravadelli
 > Desenvolvedora de jogos, desenhista e designer.
 
-<img src="https://media-exp1.licdn.com/dms/image/D4D35AQGdLTYr7MQAlA/profile-framedphoto-shrink_800_800/0/1636154911153?e=1636999200&v=beta&t=b5EJIOHlC6VfBCwOkEC0hkLNLIkkEc411-vEmuZeEiI" width="160px;" alt="Foto Marcia Ravadelli"/>
+<img src="https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/detail/photo/" width="160px;" alt="Foto Marcia Ravadelli"/>
   
 🎮[Linkedin][Linkedin2]
 
