@@ -32,17 +32,17 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 ### Laura Ferrari
 > Desenvolvedora fullstack, desenhista e designer.
+> 🎮[Linkedin][Linkedin1]
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/>
   
-🎮[Linkedin][Linkedin1]
-
 ### Marcia Ravadelli
 > Desenvolvedora de jogos, desenhista e designer.
+> 🎮[Linkedin][Linkedin2]
 
-<img src="https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/detail/photo/" width="160px;" alt="Foto Marcia Ravadelli"/>
+<img src="https://media-exp1.licdn.com/dms/image/D4D35AQGdLTYr7MQAlA/profile-framedphoto-shrink_800_800/0/1636154911153?e=1636999200&v=beta&t=b5EJIOHlC6VfBCwOkEC0hkLNLIkkEc411-vEmuZeEiI" width="160px;" alt="Foto Marcia Ravadelli"/>
   
-🎮[Linkedin][Linkedin2]
+
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
