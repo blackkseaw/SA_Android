@@ -31,8 +31,9 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > Desenvolvedora fullstack.
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/><br>
-<img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/laura-ferrari-6a25b220b/" /></a>
-      
+👔 [Linkedin][a]
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
+
+[Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
