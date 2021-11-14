@@ -1,6 +1,8 @@
 # Aplicativo SAM
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+[Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
+
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
 
@@ -31,7 +33,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > Desenvolvedora fullstack.
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/><br>
-[Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
+
 👔 [Linkedin1][Linkedin]
 
 
