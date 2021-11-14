@@ -57,5 +57,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909496181279846490/unknown.png" width="160px;" alt="Foto Kauan Fernandes"/>
 
+### Angelo Bottega
+> Equipe criativa.<br>
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+<img src="https://cdn.discordapp.com/attachments/494996013837320193/909497264559501462/IMG_8985.jpeg" width="160px;" alt="Foto Angelo Bottega"/>
