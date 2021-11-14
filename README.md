@@ -4,7 +4,7 @@
 [Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
 [Linkedin2]: https://www.linkedin.com/in/marcia-eduarda-ravadelli-38a5991b7/
 [Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
-[Linkedin4]: 
+[Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
 [Linkedin5]: 
 
 
@@ -43,13 +43,13 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > Desenvolvedora de jogos, desenhista e designer.
 > 🎮[Linkedin][Linkedin2]
 
-<img src="https://media-exp1.licdn.com/dms/image/D4D35AQGdLTYr7MQAlA/profile-framedphoto-shrink_800_800/0/1636154911153?e=1636999200&v=beta&t=b5EJIOHlC6VfBCwOkEC0hkLNLIkkEc411-vEmuZeEiI" width="160px;" alt="Foto Marcia Ravadelli"/>
+<img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
   
 ### Alice Brediw
 > Equipe criativa.
 > 🎮[Linkedin][Linkedin3]
 
-<img src="https://media-exp1.licdn.com/dms/image/D4D35AQER1_tHiyHXmQ/profile-framedphoto-shrink_800_800/0/1626440963920?e=1636999200&v=beta&t=qyo9OviMVqRhMzUc5FEtt3ogtKZbErcMBHb_gQki55s" width="160px;" alt="Foto Alice Bredow"/>
+<img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
