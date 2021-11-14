@@ -5,7 +5,6 @@
 [Linkedin2]: https://www.linkedin.com/in/marcia-eduarda-ravadelli-38a5991b7/
 [Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
 [Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
-[Linkedin5]: 
 
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
