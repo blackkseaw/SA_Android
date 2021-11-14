@@ -34,13 +34,13 @@ Nosso aplicativo consiste em um conjunto de jogos educacionais simples para cria
 A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 ### Laura Ferrari
-> Desenvolvedora fullstack, desenhista e designer.
+> Desenvolvedora fullstack, desenhista e designer.<br>
 > 🎮[Linkedin][Linkedin1]
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/>
   
 ### Marcia Ravadelli
-> Desenvolvedora de jogos, desenhista e designer.
+> Desenvolvedora de jogos, desenhista e designer.<br>
 > 🎮[Linkedin][Linkedin2]
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
@@ -50,6 +50,12 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > 🎮[Linkedin][Linkedin3]
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
+
+### Kauan Fernandes
+> Equipe criativa.<br>
+> 🎮[Linkedin][Linkedin4]
+
+<img src="https://cdn.discordapp.com/attachments/604072921090228234/909496181279846490/unknown.png" width="160px;" alt="Foto Kauan Fernandes"/>
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
