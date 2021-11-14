@@ -2,7 +2,10 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 [Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
-[Linkedin2]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
+[Linkedin2]: https://www.linkedin.com/in/marcia-eduarda-ravadelli-38a5991b7/
+[Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
+[Linkedin4]: 
+[Linkedin5]: 
 
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
@@ -42,7 +45,11 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 <img src="https://media-exp1.licdn.com/dms/image/D4D35AQGdLTYr7MQAlA/profile-framedphoto-shrink_800_800/0/1636154911153?e=1636999200&v=beta&t=b5EJIOHlC6VfBCwOkEC0hkLNLIkkEc411-vEmuZeEiI" width="160px;" alt="Foto Marcia Ravadelli"/>
   
+### Alice Brediw
+> Equipe criativa.
+> 🎮[Linkedin][Linkedin3]
 
+<img src="https://media-exp1.licdn.com/dms/image/D4D35AQER1_tHiyHXmQ/profile-framedphoto-shrink_800_800/0/1626440963920?e=1636999200&v=beta&t=qyo9OviMVqRhMzUc5FEtt3ogtKZbErcMBHb_gQki55s" width="160px;" alt="Foto Alice Bredow"/>
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
