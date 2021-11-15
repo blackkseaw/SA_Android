@@ -26,12 +26,13 @@ Our app consists of a bundle of simple educational games for children with ASD (
 ### Laura Ferrari
 > Full stack developer, graphic artist and designer.<br>
 > 🎮[Linkedin][Linkedin1]
+> 💻<a href="https://github.com/blackkseaw">Github</a>
 
 <img src="https://avatars.githubusercontent.com/u/71517723?v=4" width="160px;" alt="Foto Laura Ferrari"/>
   
 ### Marcia Ravadelli
 > Game developer, graphic artist and designer.<br>
-> 🎮[Linkedin][Linkedin2]
+> 🎮[Linkedin][Linkedin2]<br>
 > 💻<a href="https://github.com/Lerigou">Github</a>
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
