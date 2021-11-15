@@ -1,4 +1,4 @@
-## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909802766027853844/switchorange.png" width="40px;"/><a href="https://github.com/blackkseaw/blackkseaw/blob/main/README.md"> Switch to Portuguese </a> 
+## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909802766027853844/switchorange.png" width="40px;"/><a href="https://github.com/blackkseaw/SA_Android/blob/master/README.md"> Switch to Portuguese </a> 
 
 # SAM APP PROJECT
 
