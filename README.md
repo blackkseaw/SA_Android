@@ -1,4 +1,4 @@
-[🡳 English version](#SAM-APP-PROJECT)<br>
+[🡳 ENGLISH VERSION](#SAM-APP-PROJECT)<br>
 
 # Aplicativo SAM
 
