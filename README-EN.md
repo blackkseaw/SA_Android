@@ -32,6 +32,7 @@ Our app consists of a bundle of simple educational games for children with ASD (
 ### Marcia Ravadelli
 > Game developer, graphic artist and designer.<br>
 > 🎮[Linkedin][Linkedin2]
+> 💻<a href="https://github.com/Lerigou">Github</a>
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
   
