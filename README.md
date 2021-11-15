@@ -45,7 +45,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
 
 ### Kauan Fernandes
-> Desenvolvedora de jogos.<br>
+> Desenvolvedor de jogos.<br>
 > 🎮[Linkedin][Linkedin4]
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909496181279846490/unknown.png" width="160px;" alt="Foto Kauan Fernandes"/>
