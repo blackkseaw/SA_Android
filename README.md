@@ -72,7 +72,7 @@ Our app consists of a bundle of simple educational games for children with ASD (
 <img src="https://cdn.discordapp.com/attachments/494996013837320193/909490207005474846/samlingua-sl.png" width="160px;" />
 
 
-## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Colaboradores
+## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Contributors
 
 5P is a team formed by five students from Escola S, Florianópolis, Brazil.
 
