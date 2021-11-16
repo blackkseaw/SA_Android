@@ -36,6 +36,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > 🎮[Linkedin][Linkedin2]<br>
 > 💻<a href="https://github.com/Lerigou">Github</a>
 
+<img src="https://cdn.discordapp.com/attachments/604072921090228234/909827430804488272/unknown.png" width="160px;" alt="Foto Marcia Ravadelli"/>
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
   
 ### Kauan Fernandes
