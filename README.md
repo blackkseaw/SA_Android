@@ -38,17 +38,17 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909495547780546651/Screenshot_20211114-143014-340.png" width="160px;" alt="Foto Marcia Ravadelli"/>
   
-### Alice Bredow
-> Equipe criativa.<br>
-> 🎮[Linkedin][Linkedin3]
-
-<img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
-
 ### Kauan Fernandes
 > Desenvolvedor de jogos.<br>
 > 🎮[Linkedin][Linkedin4]
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909496181279846490/unknown.png" width="160px;" alt="Foto Kauan Fernandes"/>
+
+### Alice Bredow
+> Equipe criativa.<br>
+> 🎮[Linkedin][Linkedin3]
+
+<img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
 
 ### Angelo Bottega
 > Equipe criativa.<br>
