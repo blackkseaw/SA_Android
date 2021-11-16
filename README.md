@@ -1,6 +1,6 @@
 ## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909802763834253372/switchblue.png" width="40px;"/><a href="https://github.com/blackkseaw/SA_Android/blob/master/README-EN.md"> Switch to English </a> 
 
-# <img src="https://cdn.discordapp.com/attachments/604072921090228234/909959174539051088/unknown.png" width="40px;" /> Aplicativo SAM
+# Aplicativo SAM
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 [Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
