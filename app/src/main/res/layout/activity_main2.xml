@@ -9,20 +9,155 @@
     tools:context=".Main2Activity">
 
     <FrameLayout
-        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottomNav">
-
-        <include
-            layout="@layout/fragment_home"
+        android:layout_marginBottom="50dp">
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="0dp" />
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <include
+                    layout="@layout/games"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="0dp"
+                    android:layout_marginBottom="30px">
+
+                    <ImageButton
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/bluebutton"
+                        android:onClick="onClickLogica"
+                        android:src="@drawable/ic_brush" />
+
+                    <ImageButton
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/purplebutton"
+                        android:src="@drawable/ic_face_white"/>
+
+                    <ImageButton
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/redbutton"
+                        android:src="@drawable/ic_chat"/>
+
+                    <ImageButton
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="20dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/greenbutton"
+                        android:src="@drawable/ic_library_books"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:text="Hora da diversão!"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/imageButton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="QUAL É O ANIMAL?"
+                        android:onClick="game1"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/redbutton2"/>
+
+                    <TextView
+                        android:id="@+id/imageButton11"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="QUEBRA-CABEÇA"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/redbutton"/>
+
+                    <TextView
+                        android:id="@+id/imageButton12"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="SAMCOME"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/redbutton2"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
     </FrameLayout>
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNav"
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragment_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@id/bottomNav">-->
+
+<!--        <include-->
+<!--            layout="@layout/fragment_home"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:layout_editor_absoluteX="1dp"-->
+<!--            tools:layout_editor_absoluteY="0dp" />-->
+
+<!--        -->
+
+
+<!--    </FrameLayout>-->
+
+    <ImageView
+        android:id="@+id/imageView9"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -32,7 +167,76 @@
         android:background="@color/orange_light"
         android:fitsSystemWindows="true"
         app:itemIconSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/navigation" />
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/logica"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:background="@color/orange_light"
+            android:src="@drawable/ic_home" />
+
+        <ImageButton
+            android:id="@+id/motor"
+            android:layout_width="54dp"
+            android:onClick="call_parent"
+            android:layout_height="54dp"
+            android:background="@color/orange_light"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_help" />
+
+        <ImageButton
+            android:id="@+id/social"
+            android:layout_width="54dp"
+            android:onClick="call_about"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:background="@color/orange_light"
+            android:src="@drawable/ic_person" />
+
+        <ImageButton
+            android:id="@+id/alfabeto"
+            android:layout_width="54dp"
+            android:onClick="call_info"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/orange_light"
+            android:src="@drawable/ic_library_books" />
+    </LinearLayout>
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNav"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:background="@color/orange_light"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        app:itemIconSize="30dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:menu="@menu/navigation" />-->
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

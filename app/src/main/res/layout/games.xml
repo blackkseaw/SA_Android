@@ -53,15 +53,13 @@
     <TextView
         android:id="@+id/text6"
         style="@style/Yellow_container_text"
-        android:layout_width="335dp"
-        android:layout_height="74dp"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
 
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:text="Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/text5"
-        app:layout_constraintEnd_toEndOf="@+id/text5"
         app:layout_constraintStart_toStartOf="@+id/text5"
         app:layout_constraintTop_toTopOf="@+id/text5"
         app:layout_constraintVertical_bias="0.15" />
@@ -102,6 +100,18 @@
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+
+        android:layout_marginRight="20dp"
+        android:layout_width="79dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text5"
+        app:layout_constraintEnd_toEndOf="@+id/text5"
+        app:layout_constraintStart_toEndOf="@+id/text6"
+        app:layout_constraintTop_toTopOf="@+id/text5"
+        app:srcCompat="@drawable/sam_pe" />
 
     <!--    <Button-->
 <!--        android:id="@+id/button2"-->

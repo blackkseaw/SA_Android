@@ -27,11 +27,14 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_home, container, false);
 
+
     }
+    public void onClickLogica(View view) {
 
-//    public void onClickHome(View view) {
-//        Intent intent = new Intent(getContext(), LogicaFragment.class);
-//        startActivity(intent);
-//    }
-
+        Intent intent = new Intent(getContext(), Logico.class);
+        startActivity(intent);
+    }
+    
 }
+
+

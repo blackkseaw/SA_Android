@@ -9,12 +9,10 @@
 
     <item
         android:id="@+id/nav_parent"
-        android:icon="@drawable/ic_live_help_black_24dp"
         android:title="@string/title_category"/>
 
     <item
         android:id="@+id/nav_info"
-        android:icon="@drawable/ic_person_pin_black_24dp"
         android:title="@string/title_notifications"/>
 
     <item

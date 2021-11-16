@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu3Activity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="87dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/sobre"
+                    android:layout_width="422dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/orange_light"
+        android:fitsSystemWindows="true"
+        app:itemIconSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/logica"
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:background="@color/orange_light"
+            android:onClick="call_home"
+            android:src="@drawable/ic_home" />
+
+        <ImageButton
+            android:id="@+id/motor"
+            android:layout_width="54dp"
+            android:onClick="call_parent"
+            android:layout_height="54dp"
+            android:background="@color/orange_light"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_help" />
+
+        <ImageButton
+            android:id="@+id/social"
+            android:layout_width="54dp"
+            android:onClick="call_about"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:background="@color/orange_light"
+            android:src="@drawable/ic_person" />
+
+        <ImageButton
+            android:id="@+id/alfabeto"
+            android:layout_width="54dp"
+            android:onClick="call_info"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/orange_light"
+            android:src="@drawable/ic_library_books" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
