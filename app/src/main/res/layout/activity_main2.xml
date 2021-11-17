@@ -70,7 +70,7 @@
                         android:layout_margin="20dp"
                         android:layout_marginEnd="24dp"
                         android:background="@drawable/greenbutton"
-                        android:src="@drawable/ic_library_books"/>
+                        android:src="@drawable/ic_library_books_green"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,12 +94,13 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="30dp"
-                        android:text="QUAL É O ANIMAL?"
+                        android:text="@string/game1_name"
                         android:onClick="call_game1"
                         android:gravity="center"
-                        android:textColor="@color/white"
+                        android:textColor="@color/green_dark"
                         android:textSize="15sp"
                         android:textStyle="bold"
+                        android:backgroundTint="@color/green_light"
                         android:background="@drawable/redbutton2"/>
 
                     <TextView
@@ -109,11 +110,12 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="30dp"
-                        android:text="QUEBRA-CABEÇA"
+                        android:text="Quebra-Cabeça"
                         android:gravity="center"
-                        android:textColor="@color/white"
+                        android:textColor="@color/purple_dark"
                         android:textSize="15sp"
                         android:textStyle="bold"
+                        android:backgroundTint="@color/purple_light"
                         android:background="@drawable/redbutton"/>
 
                     <TextView
@@ -123,11 +125,12 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="30dp"
-                        android:text="SAMCOME"
+                        android:text="SamCome"
                         android:gravity="center"
-                        android:textColor="@color/white"
+                        android:textColor="@color/blue_dark"
                         android:textSize="15sp"
                         android:textStyle="bold"
+                        android:backgroundTint="@color/blue_light"
                         android:background="@drawable/redbutton2"/>
 
 
