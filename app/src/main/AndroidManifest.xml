@@ -10,11 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main1JogoActivity"/>
+        <activity android:name=".SocialActivity"></activity>
+        <activity android:name=".AlfabetoActivity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".Ganhou"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main1JogoActivity" />
+        <activity android:name=".Ganhou" />
         <activity android:name=".GameOver" />
-
         <activity android:name=".Questao10Activity" />
         <activity android:name=".Questao9Activity" />
         <activity android:name=".Questao8Activity" />
@@ -25,12 +32,10 @@
         <activity android:name=".Questao3Activity" />
         <activity android:name=".Questao2Activity" />
         <activity android:name=".Questao1Activity" />
-
         <activity android:name=".PopUp4" />
         <activity android:name=".PopUp3" />
         <activity android:name=".PopUp2" />
         <activity android:name=".PopUp1" />
-
         <activity android:name=".Menu4Activity" />
         <activity android:name=".Menu3Activity" />
         <activity android:name=".Menu2Activity" />
@@ -39,13 +44,6 @@
         <activity android:name=".MotorActivity" />
         <activity android:name=".Logico" />
         <activity android:name=".GamesActivity" />
-        <activity android:name=".HomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".Cadastro" />
         <activity android:name=".CustomAdapter" />
         <activity

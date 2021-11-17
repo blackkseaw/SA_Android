@@ -41,6 +41,7 @@
                     <ImageButton
                         android:layout_width="54dp"
                         android:layout_height="54dp"
+                        android:onClick="call_motor"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="20dp"
                         android:background="@drawable/bluebutton"
@@ -49,7 +50,7 @@
                     <ImageButton
                         android:layout_width="54dp"
                         android:layout_height="54dp"
-
+                        android:onClick="call_logico"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="20dp"
                         android:background="@drawable/purplebutton"
@@ -58,6 +59,7 @@
                     <ImageButton
                         android:layout_width="54dp"
                         android:layout_height="54dp"
+                        android:onClick="call_social"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="20dp"
                         android:background="@drawable/redbutton"
@@ -66,6 +68,7 @@
                     <ImageButton
                         android:layout_width="54dp"
                         android:layout_height="54dp"
+                        android:onClick="call_alfabeto"
                         android:layout_gravity="center_vertical"
                         android:layout_margin="20dp"
                         android:layout_marginEnd="24dp"
@@ -115,7 +118,7 @@
                         android:textColor="@color/purple_dark"
                         android:textSize="15sp"
                         android:textStyle="bold"
-                        android:backgroundTint="@color/purple_light"
+                        android:backgroundTint="@color/purple_light_super"
                         android:background="@drawable/redbutton"/>
 
                     <TextView

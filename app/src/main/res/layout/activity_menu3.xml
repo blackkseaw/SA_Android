@@ -6,15 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Menu3Activity">
+
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="50dp">
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="87dp">
+        android:layout_marginBottom="50dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView9">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -25,8 +23,9 @@
                     layout="@layout/sobre"
                     android:layout_width="422dp"
                     android:layout_height="match_parent" />
+
+
             </LinearLayout>
-        </ScrollView>
     </FrameLayout>
     <ImageView
         android:id="@+id/imageView9"

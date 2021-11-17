@@ -52,7 +52,6 @@
         <ImageButton
             android:id="@+id/motor"
             android:layout_width="54dp"
-            android:onClick="call_parent"
             android:layout_height="54dp"
             android:background="@color/orange_light"
             android:layout_gravity="center_vertical"

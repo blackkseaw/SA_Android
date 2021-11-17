@@ -58,4 +58,20 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Main1JogoActivity.class);
         startActivity(intent);
     }
+    public void call_logico(View view) {
+        Intent intent = new Intent(this, Logico.class);
+        startActivity(intent);
+    }
+    public void call_alfabeto(View view) {
+        Intent intent = new Intent(this, AlfabetoActivity.class);
+        startActivity(intent);
+    }
+    public void call_social(View view) {
+        Intent intent = new Intent(this, SocialActivity.class);
+        startActivity(intent);
+    }
+    public void call_motor(View view) {
+        Intent intent = new Intent(this, MotorActivity.class);
+        startActivity(intent);
+    }
 }

@@ -31,13 +31,14 @@
 
             <ImageButton
                 android:layout_gravity="center"
-                android:id="@+id/bode"
+                android:id="@+id/onca"
+                android:scaleType="centerInside"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="203dp"
                 android:layout_marginTop="20dp"
                 android:onClick="playOnca"
-                android:src="@drawable/golfinho"
+                android:src="@drawable/onca"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
