@@ -10,7 +10,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Jogo1Activity"></activity>
+        <activity android:name=".Main1JogoActivity"/>
+
+        <activity android:name=".Ganhou"/>
+        <activity android:name=".GameOver" />
+
+        <activity android:name=".Questao10Activity" />
+        <activity android:name=".Questao9Activity" />
+        <activity android:name=".Questao8Activity" />
+        <activity android:name=".Questao7Activity" />
+        <activity android:name=".Questao6Activity" />
+        <activity android:name=".Questao5Activity" />
+        <activity android:name=".Questao4Activity" />
+        <activity android:name=".Questao3Activity" />
+        <activity android:name=".Questao2Activity" />
+        <activity android:name=".Questao1Activity" />
+
+        <activity android:name=".PopUp4" />
+        <activity android:name=".PopUp3" />
+        <activity android:name=".PopUp2" />
+        <activity android:name=".PopUp1" />
+
         <activity android:name=".Menu4Activity" />
         <activity android:name=".Menu3Activity" />
         <activity android:name=".Menu2Activity" />

@@ -44,7 +44,6 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="20dp"
                         android:background="@drawable/bluebutton"
-                        android:onClick="onClickLogica"
                         android:src="@drawable/ic_brush" />
 
                     <ImageButton
@@ -96,7 +95,7 @@
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="30dp"
                         android:text="QUAL É O ANIMAL?"
-                        android:onClick="game1"
+                        android:onClick="call_game1"
                         android:gravity="center"
                         android:textColor="@color/white"
                         android:textSize="15sp"

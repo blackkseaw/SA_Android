@@ -18,9 +18,47 @@
     <string name="motora1">As habilidades motoras são controladas pelo sistema nervoso central, tanto a coordenação ampla, que permite à criança realizar qualquer atividade relacionada ao impulso físico e ao equilíbrio, quanto a fina, que é a habilidade de usar de forma precisa pequenos músculos localizados principalmente nas mãos e pés, para movimentos mais delicados e precisos que permite o manuseio de objetos e realizar capacidades como recortar, pintar, escrever, etc.
         As crianças com autismo podem ter diferentes graus de dificuldade nas habilidades motoras e podem ter efeitos no desenvolvimento cognitivo, social e emocional. Isso porque habilidades, como sentar-se, pegar objetos e andar, permitem aprender novas experiências que estimulam o aprendizado, essas dificuldades podem fazer com que as crianças com autismo evitem se envolver em atividades físicas, limitando suas oportunidades de interação social. No entanto, todas elas podem ser superadas, principalmente se detectadas cedo.</string>
     <string name="sobre">As crianças com autismo podem ter diferentes graus de dificuldade nas habilidades motoras e elas podem ter efeitos no desenvolvimento cognitivo, social e emocional das crianças com autismo. Isso porque habilidades, como sentar-se, pegar objetos e andar, permitem aprender novas experiências que estimulam o aprendizado. Além disso, bebês que não se movem muito ou não agarram objetos tendem a ter menos interações com seus cuidadores, limitando as oportunidades de desenvolver a linguagem e outras habilidades. Todas essas dificuldades na coordenação motora podem fazer com que as crianças com autismo evitem se envolver em atividades físicas, como esportes, limitando suas oportunidades de interação social. No entanto, todas elas podem ser superadas, principalmente se detectadas precocemente.</string>
+    <string name="sobre_sam1">Inspirado no artigo escrito por Cristiano Camargo e postado no GAUT, Galeria de Arte por Pessoas com Autismo, nosso mascote de escolha é Sam, a gata laranja</string>
+    <string name="sobre_sam2">No seu artigo, Cristiano diz que a peça de quebra cabeça azul foi escolhida sem a consulta da comunidade autista. O GAUT elencou o vermelho e o gato como seus representantes.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="proximo">Próximo</string>
+
+    <string name="sapo">Sapo</string>
+    <string name="urso">Urso</string>
+    <string name="abelha">Abelha</string>
+    <string name="cavalo">Cavalo</string>
+    <string name="vaca">Vaca</string>
+    <string name="doninha">Doninha</string>
+    <string name="cachorro">Cachorro</string>
+    <string name="ovelha">Ovelha</string>
+    <string name="bode">Bode</string>
+    <string name="passarinho">Passarinho</string>
+    <string name="jacare">Jacaré</string>
+    <string name="galinha">Galinha</string>
+    <string name="dinossauro">Dinossauro</string>
+    <string name="cobra">Cobra</string>
+    <string name="tigre">Tigre</string>
+    <string name="elefante">Elefante</string>
+    <string name="golfinho">Golfinho</string>
+    <string name="camelo">Camelo</string>
+    <string name="onca">Onça</string>
+    <string name="quero_quero">Quero-Quero</string>
+    <string name="unicornio">Unicórnio</string>
+    <string name="girafa">Girafa</string>
+    <string name="tartaruga">Tartaruga</string>
+    <string name="coruja">Coruja</string>
+    <string name="rinoceronte">Rinoceronte</string>
+    <string name="rato">Rato</string>
+    <string name="leao">Leão</string>
+    <string name="foca">Foca</string>
+    <string name="besouro">Besouro</string>
+    <string name="hamster">Hamster</string>
+    <string name="urubu">Urubu</string>
+    <string name="macaco">Macaco</string>
+
 
 
 </resources>
