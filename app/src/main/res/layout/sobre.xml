@@ -69,25 +69,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/waves" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="160dp"
-        android:layout_height="150dp"
-        android:background="@drawable/yellow_light_box"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="150dp"
         android:layout_height="142dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="@+id/textView6"
+        android:background="@color/yellow_light"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:srcCompat="@drawable/samicon" />
 
 
