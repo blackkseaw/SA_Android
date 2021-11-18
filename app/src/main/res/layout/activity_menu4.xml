@@ -80,7 +80,6 @@
         <ImageButton
             android:id="@+id/social"
             android:layout_width="54dp"
-            android:onClick="call_about"
             android:layout_height="54dp"
             android:layout_gravity="center_vertical"
             android:layout_margin="20dp"

@@ -14,6 +14,11 @@
     <color name="green_new">#39AA09</color>
     <color name="green_light">#72D647</color>
     <color name="green_light_super">#C6FFAD</color>
+
+
+    <color name="green_light_alf">#4CB61F</color>
+    <color name="green_light_super_alf">#94E172</color>
+
     <color name="purple_dark">#3700A5</color>
     <color name="purple">#6C32DF</color>
     <color name="purple_light">#9965FF</color>

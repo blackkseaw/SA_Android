@@ -21,10 +21,16 @@
     <string name="sobre_sam1">Inspirado no artigo escrito por Cristiano Camargo e postado no GAUT, Galeria de Arte por Pessoas com Autismo, nosso mascote de escolha é Sam, a gata laranja</string>
     <string name="sobre_sam2">No seu artigo, Cristiano diz que a peça de quebra cabeça azul foi escolhida sem a consulta da comunidade autista. O GAUT elencou o vermelho e o gato como seus representantes.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mais">Aprender sobre animais</string>
 
     <string name="game1_name">SamAdivinha</string>
+
+    <string name="game2_name">Quebra-Cabeça</string>
+    <string name="game2_sobre">O quebra-cabeça reforça as conexões existentes do cérebro e incentiva a formação de novas ligações. Ele estimula tanto o lado esquerdo do cérebro, com a lógica e racionalidade através do encaixe das peças, quanto o lado direito, com a criatividade e a visão artística da obra final, ou seja, incentiva diretamente as habilidades cognitivas.</string>
+
+    <string name="game3_name">SamCome</string>
+    <string name="game3_sobre">O Samcome, através da sua dinâmica, além da coordenação motora, ajuda a estimular outras áreas, como percepção visual, habilidades psicomotoras, atenção e velocidade de processamento, pois é preciso clicar na tela apenas quando o Sam estiver alinhado para comer os peixinhos.</string>
+
     <string name="proximo">Próximo</string>
 
     <string name="sapo">Sapo</string>

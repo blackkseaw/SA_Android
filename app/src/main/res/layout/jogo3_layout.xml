@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainJogo1Activity"
-    android:background="@color/white">
+    tools:context=".MainJogo3Activity">
+
+
 
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/green_light_alf"
+        android:background="@color/blue_light"
         tools:ignore="MissingConstraints" />
+
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="26dp"
@@ -26,15 +28,15 @@
         app:srcCompat="@drawable/arrow" />
 
     <!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        tools:layout_editor_absoluteX="0dp"-->
-<!--        tools:layout_editor_absoluteY="69dp">-->
-        <!--    <LinearLayout-->
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="match_parent"-->
-        <!--        android:orientation="vertical"-->
-        <!--        android:layout_gravity="center">-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        tools:layout_editor_absoluteX="0dp"-->
+    <!--        tools:layout_editor_absoluteY="69dp">-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_gravity="center">-->
 
 
     <ImageView
@@ -43,7 +45,7 @@
         android:layout_height="418dp"
         android:layout_marginTop="72dp"
         android:src="@drawable/orangebutton"
-        android:tint="@color/green_light_alf"
+        android:tint="@color/blue_light"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
@@ -55,7 +57,7 @@
         android:layout_marginTop="72dp"
         android:fontFamily="@font/minkynice"
         android:gravity="center"
-        android:text="@string/game1_name"
+        android:text="@string/game3_name"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,36 +67,37 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_width="284dp"
+        android:layout_height="225dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/detetive_fundo"
+        android:src="@drawable/sam_pe"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttongame"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/letters_learners"
+        android:gravity="center"
+        android:text="@string/game3_sobre"
+        android:textSize="28sp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttongame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/start"
-        android:layout_width="210dp"
-        android:layout_height="64dp"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/green_light_alf"
-        android:background="@drawable/botao_principal"
-        android:fontFamily="@font/minkynice"
-        android:gravity="center"
-        android:onClick="quest1"
-        android:text="Jogar"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.534" />
-
-
-    <!--    </LinearLayout>-->
-<!--    </ScrollView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,7 +23,7 @@ public class GameOver extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(GameOver.this, Main1JogoActivity.class);
+                Intent intent = new Intent(GameOver.this, MainJogo1Activity.class);
                 startActivity(intent);
 
             }

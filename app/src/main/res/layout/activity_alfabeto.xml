@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AlfabetoActivity"
-    android:background="@color/green_light_super">
+    android:background="@color/green_light_super_alf">
 
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="202dp"
-        android:background="@color/green_new"
+        android:background="@color/green_light_alf"
         tools:ignore="MissingConstraints" />
 
 
@@ -21,7 +21,7 @@
         android:layout_height="300dp"
         android:scaleType="centerCrop"
         android:src="@drawable/wave4"
-        android:tint="@color/green_new"
+        android:tint="@color/green_light_alf"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,13 +41,13 @@
 
     <TextView
         android:id="@+id/text15"
+        android:fontFamily="@font/minkynice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:textColor="@color/white"
         android:text="ALFABETO"
         android:textSize="36sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -59,4 +59,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/green" />
+
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:fontFamily="@font/minkynice"
+        android:id="@+id/button"
+        android:textColor="@color/green_dark"
+        android:text="@string/mais"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/orangebutton"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.445" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

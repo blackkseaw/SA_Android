@@ -8,50 +8,27 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="26dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="16dp"
-        android:onClick="voltar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
-
-    <View
-        android:id="@+id/text9"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        style="@style/Yellow_container"
-        android:layout_width="359dp"
-        android:layout_height="265dp"
-        android:background="@drawable/bluelight_box"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text8"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="332dp"
-        android:layout_height="270dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/buttongame"
         android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bluelight_box"
+        android:fontFamily="@font/letters_learners"
         android:foregroundGravity="center"
         android:gravity="center"
+        android:padding="20dp"
         android:text="@string/text_welcome"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/text9"
-        app:layout_constraintEnd_toEndOf="@+id/text9"
-        app:layout_constraintHorizontal_bias="0.416"
-        app:layout_constraintStart_toStartOf="@+id/text9"
-        app:layout_constraintTop_toTopOf="@+id/text9"
-        app:layout_constraintVertical_bias="1.0" />
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8"
+        app:layout_constraintVertical_bias="0.085" />
 
     <TextView
         android:id="@+id/text8"
@@ -60,13 +37,14 @@
         android:layout_above="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/minkynice"
         android:gravity="center"
         android:text="RESPONSÁVEIS"
         android:textColor="@color/blue"
         android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

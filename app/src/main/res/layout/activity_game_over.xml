@@ -22,13 +22,13 @@
 
             <TextView
                 android:id="@+id/titulo"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Você errou!"
                 android:textColor="@color/black"
                 android:textSize="30sp"
-                android:textStyle="bold"
                 android:layout_marginBottom="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -36,25 +36,26 @@
 
             <TextView
                 android:id="@+id/texto"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Total de acertos: "
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tvScore"
+                android:fontFamily="@font/letters_learners"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="TextView"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -74,6 +75,7 @@
 
             <Button
                 android:id="@+id/start"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="210dp"
                 android:layout_height="64dp"
                 android:layout_gravity="center"
@@ -91,6 +93,7 @@
 
             <Button
                 android:id="@+id/voltar"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="148dp"
                 android:layout_height="36dp"
                 android:layout_gravity="center"

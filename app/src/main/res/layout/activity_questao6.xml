@@ -16,12 +16,12 @@
             android:layout_gravity="center">
 
             <TextView
+                android:fontFamily="@font/minkynice"
                 android:gravity="center"
                 android:id="@+id/titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
-                android:textStyle="bold"
                 android:text="QUAL É O ANIMAL?"
                 android:textColor="@color/black"
                 android:textSize="30sp"
@@ -46,12 +46,13 @@
 
             <TextView
                 android:gravity="center"
+                android:fontFamily="@font/letters_learners"
                 android:id="@+id/titulo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Clique para ouvir"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +60,7 @@
 
             <Button
                 android:id="@+id/errado"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="233dp"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
@@ -74,6 +76,7 @@
 
             <Button
                 android:id="@+id/errado3"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="233dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -89,6 +92,7 @@
 
             <Button
                 android:id="@+id/errado1"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="233dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -104,6 +108,7 @@
 
             <Button
                 android:id="@+id/certo"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="233dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"

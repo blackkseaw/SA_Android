@@ -22,6 +22,7 @@
         android:backgroundTint="@color/yellow_light">
 
         <TextView
+            android:fontFamily="@font/minkynice"
             android:id="@+id/textView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -45,11 +46,13 @@
             android:gravity="center"
             android:text="Você acertou qual era o animal! Aperte no botão abaixo para continuar"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:fontFamily="@font/letters_learners"
+            android:textSize="25dp"
             tools:layout_editor_absoluteX="25dp"
             tools:layout_editor_absoluteY="115dp" />
 
         <Button
+            android:fontFamily="@font/minkynice"
             android:id="@+id/proximo10"
             android:layout_width="130dp"
             android:layout_height="30dp"

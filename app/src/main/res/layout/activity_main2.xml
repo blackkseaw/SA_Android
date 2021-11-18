@@ -31,50 +31,52 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="30px"
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="0dp"
-                    android:layout_marginBottom="30px">
+                    tools:layout_editor_absoluteX="0dp">
 
                     <ImageButton
-                        android:layout_width="54dp"
-                        android:layout_height="54dp"
-                        android:onClick="call_motor"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/bluebutton"
+                        android:onClick="call_motor"
                         android:src="@drawable/ic_brush" />
 
                     <ImageButton
-                        android:layout_width="54dp"
-                        android:layout_height="54dp"
-                        android:onClick="call_logico"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:background="@drawable/purplebutton"
-                        android:src="@drawable/ic_face_white"/>
+                        android:onClick="call_logico"
+                        android:src="@drawable/ic_face_white" />
 
                     <ImageButton
-                        android:layout_width="54dp"
-                        android:layout_height="54dp"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:backgroundTint="@color/red_light"
+                        android:background="@drawable/bluebutton"
                         android:onClick="call_social"
-                        android:layout_gravity="center_vertical"
-                        android:layout_margin="20dp"
-                        android:background="@drawable/redbutton"
-                        android:src="@drawable/ic_chat"/>
+                        android:src="@drawable/ic_chat" />
 
                     <ImageButton
-                        android:layout_width="54dp"
-                        android:layout_height="54dp"
-                        android:onClick="call_alfabeto"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="20dp"
+                        android:layout_margin="10dp"
                         android:layout_marginEnd="24dp"
                         android:background="@drawable/greenbutton"
-                        android:src="@drawable/ic_library_books_green"/>
+                        android:onClick="call_alfabeto"
+                        android:src="@drawable/ic_library_books_green" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -82,6 +84,7 @@
                     android:layout_marginBottom="20dp">
 
                     <TextView
+                        android:fontFamily="@font/minkynice"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10dp"
                         android:id="@+id/text12"
@@ -92,49 +95,67 @@
                         android:textSize="20sp"/>
                     <TextView
                         android:id="@+id/imageButton10"
+                        android:fontFamily="@font/minkynice"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="40dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginEnd="30dp"
+                        android:layout_marginEnd="40dp"
                         android:text="@string/game1_name"
                         android:onClick="call_game1"
                         android:gravity="center"
                         android:textColor="@color/green_dark"
                         android:textSize="15sp"
-                        android:textStyle="bold"
                         android:backgroundTint="@color/green_light"
-                        android:background="@drawable/redbutton2"/>
+                        android:background="@drawable/redbutton"/>
 
                     <TextView
                         android:id="@+id/imageButton11"
+                        android:fontFamily="@font/minkynice"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="40dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginEnd="30dp"
+                        android:layout_marginEnd="40dp"
+                        android:onClick="call_game2"
                         android:text="Quebra-Cabeça"
                         android:gravity="center"
                         android:textColor="@color/purple_dark"
                         android:textSize="15sp"
-                        android:textStyle="bold"
                         android:backgroundTint="@color/purple_light_super"
                         android:background="@drawable/redbutton"/>
 
                     <TextView
                         android:id="@+id/imageButton12"
+                        android:fontFamily="@font/minkynice"
+                        android:onClick="call_game3"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="40dp"
                         android:layout_marginTop="12dp"
-                        android:layout_marginEnd="30dp"
+                        android:layout_marginEnd="40dp"
                         android:text="SamCome"
                         android:gravity="center"
                         android:textColor="@color/blue_dark"
                         android:textSize="15sp"
-                        android:textStyle="bold"
                         android:backgroundTint="@color/blue_light"
-                        android:background="@drawable/redbutton2"/>
+                        android:background="@drawable/redbutton"/>
+
+                    <TextView
+                        android:id="@+id/imageButton13"
+                        android:fontFamily="@font/minkynice"
+                        android:onClick="call_game3"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="40dp"
+                        android:text="SamCome"
+                        android:gravity="center"
+                        android:textColor="@color/red_dark"
+                        android:textSize="15sp"
+                        android:backgroundTint="@color/red_light"
+                        android:background="@drawable/redbutton"/>
 
 
                 </LinearLayout>

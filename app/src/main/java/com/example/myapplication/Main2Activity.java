@@ -1,26 +1,10 @@
 package com.example.myapplication;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.transition.Fade;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.transition.Transition;
-import android.transition.TransitionInflater;
-import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -42,6 +26,8 @@ public class Main2Activity extends AppCompatActivity {
 //        Intent intent = new Intent(this, Menu1Activity.class);
 //        startActivity(intent);
 //    }
+
+    //Chamando NavBottom
     public void call_parent(View view) {
         Intent intent = new Intent(this, Menu2Activity.class);
         startActivity(intent);
@@ -54,10 +40,22 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Menu4Activity.class);
         startActivity(intent);
     }
+
+    //Chamando jogos
     public void call_game1(View view) {
-        Intent intent = new Intent(this, Main1JogoActivity.class);
+        Intent intent = new Intent(this, MainJogo1Activity.class);
         startActivity(intent);
     }
+    public void call_game2(View view) {
+        Intent intent = new Intent(this, MainJogo2Activity.class);
+        startActivity(intent);
+    }
+    public void call_game3(View view) {
+        Intent intent = new Intent(this, MainJogo3Activity.class);
+        startActivity(intent);
+    }
+
+    //Chamando telas das áreas
     public void call_logico(View view) {
         Intent intent = new Intent(this, Logico.class);
         startActivity(intent);

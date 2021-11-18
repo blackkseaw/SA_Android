@@ -15,7 +15,7 @@ public class Ganhou extends Activity {
 
     }
     public void call_game1(View view) {
-        Intent intent = new Intent(this, Main1JogoActivity.class);
+        Intent intent = new Intent(this, MainJogo1Activity.class);
         startActivity(intent);
     }
     public void voltar_to_ac2(View view) {

@@ -4,15 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.PopupWindow;
 
-public class Main1JogoActivity extends AppCompatActivity {
+public class MainJogo1Activity extends AppCompatActivity {
 
     private Button botao;
 
@@ -23,9 +18,11 @@ public class Main1JogoActivity extends AppCompatActivity {
     }
     public void quest1(View v) {
 
-        Intent intent = new Intent(Main1JogoActivity.this, Questao1Activity.class);
+        Intent intent = new Intent(MainJogo1Activity.this, Questao1Activity.class);
         startActivity(intent);
 
     }
-
+    public void  voltar(View view){
+        finish();
+    }
 }

@@ -20,15 +20,16 @@
 
             <TextView
                 android:id="@+id/text"
-                android:layout_width="83dp"
-                android:layout_height="wrap_content"
+                android:layout_width="77dp"
+                android:layout_height="59dp"
                 android:layout_above="@+id/textView2"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="254dp"
+                android:fontFamily="@font/minkynice"
                 android:text="APP"
-                android:textSize="36sp"
-                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="40sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.81"
                 app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +37,7 @@
 
             <TextView
                 android:id="@+id/textView2"
+                android:fontFamily="@font/letters_learners"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/buttongame"
@@ -44,7 +46,7 @@
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:text="@string/text_home"
-                android:textSize="18sp"
+                android:textSize="28sp"
                 app:layout_constraintBottom_toTopOf="@+id/buttongame"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -54,6 +56,8 @@
 
             <Button
                 android:id="@+id/buttongame"
+                style="?android:attr/borderlessButtonStyle"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_above="@+id/imageView2"
@@ -74,6 +78,8 @@
 
             <Button
                 android:id="@+id/buttonlogin"
+                style="?android:attr/borderlessButtonStyle"
+                android:fontFamily="@font/minkynice"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_above="@+id/imageView2"

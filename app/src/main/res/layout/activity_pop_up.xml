@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:fontFamily="@font/minkynice"
             android:id="@+id/textView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
             tools:layout_editor_absoluteY="115dp" />
 
         <TextView
+            android:fontFamily="@font/letters_learners"
             android:id="@+id/textView2"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -45,11 +47,12 @@
             android:gravity="center_horizontal"
             android:text="@string/text_popup"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="25dp"
             tools:layout_editor_absoluteX="25dp"
             tools:layout_editor_absoluteY="115dp" />
 
         <Button
+            android:fontFamily="@font/minkynice"
             android:id="@+id/proximo1"
             android:layout_width="130dp"
             android:layout_height="30dp"

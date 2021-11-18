@@ -4,12 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/white">
-
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    tools:ignore="MissingConstraints">
+    <ScrollView
+        android:id="@+id/scrollMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <TextView
         android:id="@+id/text13"
+        android:fontFamily="@font/minkynice"
         android:layout_width="315dp"
+        android:layout_gravity="center_horizontal"
         android:layout_height="54dp"
         android:layout_above="@+id/textView2"
         android:layout_alignParentTop="true"
@@ -19,41 +34,37 @@
         android:textColor="@color/purple_light"
         android:text="COORDENAÇÃO MOTORA"
         android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/text9"
+        app:layout_constraintBottom_toTopOf="@+id/scrollMotor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         android:layout_marginBottom="10dp"/>
 
-    <View
-        android:id="@+id/text9"
-        style="@style/Yellow_container"
-        android:layout_width="365dp"
-        android:layout_height="607dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="150dp"
-        android:background="@drawable/purplesuperlight_box"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="315dp"
-        android:layout_height="554dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_above="@+id/buttongame"
-        android:layout_alignParentEnd="true"
-        android:gravity="center"
-        android:text="@string/motora1"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/text9"
-        app:layout_constraintEnd_toEndOf="@+id/text9"
-        app:layout_constraintStart_toStartOf="@+id/text9"
-        app:layout_constraintTop_toTopOf="@+id/text9"
-        app:layout_constraintVertical_bias="0.448" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_above="@+id/buttongame"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/purplesuperlight_box"
+                android:fontFamily="@font/letters_learners"
+                android:gravity="center"
+                android:text="@string/motora1"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text9"
+                app:layout_constraintEnd_toEndOf="@+id/text9"
+                app:layout_constraintStart_toStartOf="@+id/text9"
+                app:layout_constraintTop_toTopOf="@+id/text9"
+                app:layout_constraintVertical_bias="0.448" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
