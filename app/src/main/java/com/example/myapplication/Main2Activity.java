@@ -54,6 +54,10 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent = new Intent(this, MainJogo3Activity.class);
         startActivity(intent);
     }
+    public void call_game4(View view) {
+        Intent intent = new Intent(this, MainJogo4Activity.class);
+        startActivity(intent);
+    }
 
     //Chamando telas das áreas
     public void call_logico(View view) {

@@ -72,6 +72,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_margin="10dp"
                         android:layout_marginEnd="24dp"
+                        android:backgroundTint="@color/green_light_alf"
                         android:background="@drawable/greenbutton"
                         android:onClick="call_alfabeto"
                         android:src="@drawable/ic_library_books_green" />
@@ -84,6 +85,7 @@
                     android:layout_marginBottom="20dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:fontFamily="@font/minkynice"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10dp"
@@ -104,9 +106,25 @@
                         android:text="@string/game1_name"
                         android:onClick="call_game1"
                         android:gravity="center"
-                        android:textColor="@color/green_dark"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
-                        android:backgroundTint="@color/green_light"
+                        android:backgroundTint="@color/green_light_alf"
+                        android:background="@drawable/redbutton"/>
+
+                    <TextView
+                        android:id="@+id/imageButton13"
+                        android:fontFamily="@font/minkynice"
+                        android:onClick="call_game4"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="40dp"
+                        android:text="@string/game4_name"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:backgroundTint="@color/red"
                         android:background="@drawable/redbutton"/>
 
                     <TextView
@@ -118,11 +136,11 @@
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="40dp"
                         android:onClick="call_game2"
-                        android:text="Quebra-Cabeça"
+                        android:text="@string/game2_name"
                         android:gravity="center"
-                        android:textColor="@color/purple_dark"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
-                        android:backgroundTint="@color/purple_light_super"
+                        android:backgroundTint="@color/purple_light"
                         android:background="@drawable/redbutton"/>
 
                     <TextView
@@ -134,28 +152,14 @@
                         android:layout_marginStart="40dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginEnd="40dp"
-                        android:text="SamCome"
+                        android:text="@string/game3_name"
                         android:gravity="center"
-                        android:textColor="@color/blue_dark"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:backgroundTint="@color/blue_light"
                         android:background="@drawable/redbutton"/>
 
-                    <TextView
-                        android:id="@+id/imageButton13"
-                        android:fontFamily="@font/minkynice"
-                        android:onClick="call_game3"
-                        android:layout_width="match_parent"
-                        android:layout_height="55dp"
-                        android:layout_marginStart="40dp"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginEnd="40dp"
-                        android:text="SamCome"
-                        android:gravity="center"
-                        android:textColor="@color/red_dark"
-                        android:textSize="15sp"
-                        android:backgroundTint="@color/red_light"
-                        android:background="@drawable/redbutton"/>
+
 
 
                 </LinearLayout>

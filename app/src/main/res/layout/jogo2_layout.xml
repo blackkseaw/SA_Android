@@ -9,7 +9,7 @@
         <View
             android:id="@+id/view2"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="178dp"
             android:background="@color/purple_light"
             tools:ignore="MissingConstraints" />
 
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="418dp"
             android:layout_marginTop="72dp"
-            android:src="@drawable/orangebutton"
+            android:src="@drawable/rouded_bg"
             android:tint="@color/purple_light"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
@@ -52,19 +52,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="284dp"
-            android:layout_height="225dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
             android:layout_marginTop="24dp"
-            android:src="@drawable/sam_cabeca"
+            android:src="@drawable/puzzle"
             app:layout_constraintBottom_toBottomOf="@+id/view3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titulo"
-            app:layout_constraintVertical_bias="0.35" />
-
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/textView2"

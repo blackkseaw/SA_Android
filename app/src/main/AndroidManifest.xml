@@ -10,7 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainJogo3Activity"></activity>
+        <activity android:name=".slide1"></activity>
+        <activity android:name=".Game4OverActivity" />
+        <activity android:name=".Game4WinActivity" />
+        <activity android:name=".Situacao4Activity" />
+        <activity android:name=".Situacao3Activity" />
+        <activity android:name=".Situacao2Activity" />
+        <activity android:name=".Situacao1Activity" />
+        <activity android:name=".MainJogo4Activity" />
+        <activity android:name=".MainJogo3Activity" />
         <activity android:name=".MainJogo2Activity" />
         <activity android:name=".SocialActivity" />
         <activity android:name=".AlfabetoActivity" />

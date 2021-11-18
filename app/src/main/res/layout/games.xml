@@ -25,6 +25,7 @@
 
     <TextView
         android:gravity="center"
+        android:textColor="@color/black"
         android:fontFamily="@font/minkynice"
         android:id="@+id/text11"
         android:layout_width="match_parent"
@@ -51,6 +52,7 @@
 
     <TextView
         android:id="@+id/text6"
+        android:textColor="@color/black"
         style="@style/Yellow_container_text"
         android:layout_width="198dp"
         android:paddingRight="10dp"
@@ -67,6 +69,7 @@
 
     <TextView
         android:id="@+id/text10"
+        android:textColor="@color/black"
         android:fontFamily="@font/letters_learners"
         android:layout_width="142dp"
         android:layout_height="27dp"
@@ -83,6 +86,7 @@
 
     <TextView
         android:id="@+id/text4"
+        android:textColor="@color/black"
         android:fontFamily="@font/letters_learners"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,6 +105,7 @@
         android:text="Bem-vindo"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"

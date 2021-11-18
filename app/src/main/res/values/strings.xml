@@ -31,6 +31,8 @@
     <string name="game3_name">SamCome</string>
     <string name="game3_sobre">O Samcome, através da sua dinâmica, além da coordenação motora, ajuda a estimular outras áreas, como percepção visual, habilidades psicomotoras, atenção e velocidade de processamento, pois é preciso clicar na tela apenas quando o Sam estiver alinhado para comer os peixinhos.</string>
 
+    <string name="game4_name">Conversando com Sam</string>
+
     <string name="proximo">Próximo</string>
 
     <string name="sapo">Sapo</string>
@@ -66,6 +68,13 @@
     <string name="urubu">Urubu</string>
     <string name="macaco">Macaco</string>
 
+    <string name="aprenderAnimaisTitleInfo1">Uma lista de animais está a espera para conhecer você!</string>
+    <string name="aprenderAnimaisInfo1">A partir daqui, você conhecerá animais incríveis e seus sons, além de
+    conhecer um pouco mais sobre eles e sobre o lugar onde vivem</string>
+    <string name="aprenderAnimaisTitleInfo2">Aumente o som!</string>
+    <string name="aprenderAnimaisInfo2">Ao clicar na imagem do animal, o som dele é emitido, facilitando o reconhecimento do mesmo</string>
+    <string name="aprenderAnimaisTitleInfo3">Parabéns!</string>
+    <string name="aprenderAnimaisInfo3">Você completou o tutorial, ao clicar em avançar, a tela de aprendizado será acessada</string>
 
 </resources>
 

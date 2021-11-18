@@ -5,13 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu2Activity">
+
+
+
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp">
         <include
-            layout="@layout/info"
+            layout="@layout/activity_tutorial"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout_editor_absoluteX="1dp"
@@ -79,4 +83,5 @@
             android:background="@color/orange_light"
             android:src="@drawable/ic_library_books" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/borda_amarela"
-        android:backgroundTint="@color/yellow_light">
+        android:backgroundTint="@color/red_light_super">
 
         <TextView
             android:fontFamily="@font/minkynice"
@@ -44,7 +44,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="Você acertou qual era o animal! Aperte no botão abaixo para continuar"
+            android:text="Você acertou a resposta! Aperte no botão abaixo para continuar."
             android:textColor="@color/black"
             android:fontFamily="@font/letters_learners"
             android:textSize="25dp"
@@ -60,10 +60,11 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/red"
             android:background="@drawable/botao_principal"
             android:gravity="center"
             android:text="Próximo"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
