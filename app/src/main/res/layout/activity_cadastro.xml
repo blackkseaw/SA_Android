@@ -4,138 +4,145 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@color/yellow"
+    android:background="@color/white"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:background="@color/yellow">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:onClick="voltar"
-            android:id="@+id/imageView"
-            android:layout_width="26dp"
-            android:layout_height="29dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.025"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/arrow" />
 
-        <TextView
-            android:id="@+id/text7"
-            android:textColor="@color/black"
-            android:fontFamily="@font/minkynice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="CADASTRO"
-            android:textSize="36sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-        <View
-            android:id="@+id/view"
-            style="@style/ContainerComponents"
-            android:layout_width="382dp"
-            android:layout_height="350dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.482"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text7" />
-
-        <EditText
-            android:id="@+id/edit_email"
-            style="@style/Edit_Text"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:drawableRight="@drawable/ic_user"
-            android:ems="10"
-            android:hint="Email"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/edit_senha"
-            app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.465"
-            app:layout_constraintStart_toStartOf="@+id/view"
-            app:layout_constraintTop_toBottomOf="@+id/edit_nome"
-            app:layout_constraintVertical_bias="1.0" />
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
 
-        <EditText
-            android:id="@+id/edit_nome"
-            style="@style/Edit_Text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:drawableRight="@drawable/ic_user"
-            android:ems="10"
-            android:hint="Nome"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.465"
-            app:layout_constraintStart_toStartOf="@+id/view"
-            app:layout_constraintTop_toTopOf="@+id/view" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="26dp"
+                android:layout_height="29dp"
+                android:onClick="voltar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.025"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrow" />
 
-        <EditText
-            android:id="@+id/edit_senha"
-            style="@style/Edit_Text"
-            android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:drawableRight="@drawable/ic_eye"
-            android:ems="10"
-            android:hint="Senha"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="@+id/view"
-            app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.465"
-            app:layout_constraintStart_toStartOf="@+id/view"
-            app:layout_constraintTop_toTopOf="@+id/view"
-            app:layout_constraintVertical_bias="0.687" />
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/minkynice"
+                android:text="CADASTRO"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/bt_cadastrar"
-            style="@style/Loginbt"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:layout_marginTop="28dp"
-            android:background="@drawable/gradient"
-            android:text="@string/login"
-            android:textColor="@color/white"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/view"
-            app:layout_constraintEnd_toEndOf="@+id/view"
-            app:layout_constraintHorizontal_bias="0.465"
-            app:layout_constraintStart_toStartOf="@+id/view"
-            app:layout_constraintTop_toBottomOf="@+id/tSenha"
-            app:layout_constraintVertical_bias="0.606" />
+            <View
+                android:id="@+id/view"
+                style="@style/ContainerComponents"
+                android:layout_width="382dp"
+                android:layout_height="350dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="292dp" />
 
-        <ProgressBar
-            android:id="@+id/progressbar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:visibility="invisible"
-            app:layout_constraintEnd_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintStart_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view" />
+            <EditText
+                android:id="@+id/edit_email"
+                style="@style/Edit_Text"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:drawableRight="@drawable/ic_user"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/edit_senha"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/edit_nome"
+                app:layout_constraintVertical_bias="1.0" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+            <EditText
+                android:id="@+id/edit_nome"
+                style="@style/Edit_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:drawableRight="@drawable/ic_user"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toTopOf="@+id/view" />
+
+            <EditText
+                android:id="@+id/edit_senha"
+                style="@style/Edit_Text"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:drawableRight="@drawable/ic_eye"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:onClick="show_pass"
+                app:layout_constraintBottom_toBottomOf="@+id/view"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                app:layout_constraintVertical_bias="0.687" />
+
+            <Button
+                android:id="@+id/bt_cadastrar"
+                style="@style/Loginbt"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/gradient"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/view"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/tSenha"
+                app:layout_constraintVertical_bias="0.606" />
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="345dp"
+                android:layout_height="156dp"
+                app:layout_constraintBottom_toTopOf="@+id/text7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:srcCompat="@drawable/loginimg" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 </LinearLayout>

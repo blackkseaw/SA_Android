@@ -25,27 +25,27 @@ import androidx.viewpager.widget.PagerAdapter;
 public class ViewPagerAdapter1 extends PagerAdapter {
 
     Context context;
-    //    int images[] = {
-//
-//            R.drawable.image1,
-//            R.drawable.image2,
-//            R.drawable.book
-//
-//
-//};
+        int images[] = {
+
+            R.drawable.tut1,
+            R.drawable.tut2,
+            R.drawable.tut3
+
+
+};
     int titles[] = {
 
-            R.string.aprenderAnimaisTitleInfo1,
-            R.string.aprenderAnimaisTitleInfo2,
-            R.string.aprenderAnimaisTitleInfo3
+            R.string.appTutorialTitle1,
+            R.string.appTutorialTitle2,
+            R.string.appTutorialTitle3
 
     };
 
     int description[] = {
 
-            R.string.aprenderAnimaisInfo1,
-            R.string.aprenderAnimaisInfo2,
-            R.string.aprenderAnimaisInfo3
+            R.string.appTutorialInfo1,
+            R.string.appTutorialInfo2,
+            R.string.appTutorialInfo3
     };
 
     public ViewPagerAdapter1(Context context){
@@ -73,11 +73,11 @@ public class ViewPagerAdapter1 extends PagerAdapter {
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.slider_layout , container,false);
 
-//        ImageView slidetitleimage = (ImageView) view.findViewById(R.id.titleImage);
+        ImageView slidetitleimage = (ImageView) view.findViewById(R.id.titleImage);
         TextView slideTitle = (TextView) view.findViewById(R.id.textTitle);
         TextView slideDesciption = (TextView) view.findViewById(R.id.textDesccription);
 
-//        slidetitleimage.setImageResource(images[position]);
+        slidetitleimage.setImageResource(images[position]);
         slideTitle.setText(titles[position]);
         slideDesciption.setText(description[position]);
 

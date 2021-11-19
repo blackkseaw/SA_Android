@@ -23,10 +23,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-                <include
-                    layout="@layout/motora_1"
+                <ImageView
+                    android:id="@+id/imageView6"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/play_time" />
 
             </LinearLayout>
 

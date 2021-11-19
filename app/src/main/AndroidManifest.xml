@@ -48,7 +48,6 @@
         <activity android:name=".PopUp1" />
         <activity android:name=".Menu4Activity" />
         <activity android:name=".Menu3Activity" />
-        <activity android:name=".Menu2Activity" />
         <activity android:name=".PopUpActivity" />
         <activity android:name=".ButtonActivity" />
         <activity android:name=".MotorActivity" />
@@ -61,6 +60,8 @@
             tools:ignore="WrongManifestParent" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Main3Activity" />
+        <activity android:name=".Menu2Activity" />
+
     </application>
 
 </manifest>

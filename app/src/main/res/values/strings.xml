@@ -4,7 +4,7 @@
     <string name="usuario">Email</string>
     <string name="senha">Senha</string>
     <string name="login">Login</string>
-    <string name="text_cadastro">Ainda não tem cadastro? Clique aqui</string>
+    <string name="text_cadastro">Cadastro</string>
     <string name="text_dados">Aqui todo o aprendizado do seu filho é registrado! Faça login para acessar</string>
     <string name="text_welcome">Bem vindo ao Sam! O aplicativo educativo que vai auxiliar o desenvolvimento do seu filho. Nele você encontra jogos, que estimularão diversas áreas do conhecimento, e conteúdos educativos. Faça login para ter acesso aos dados coletados durante os jogos e acompanhe o desenvovimento do seu pequeno.</string>
     <string name="text_home">Aprender brincando é divertido</string>
@@ -67,6 +67,13 @@
     <string name="hamster">Hamster</string>
     <string name="urubu">Urubu</string>
     <string name="macaco">Macaco</string>
+
+    <string name="appTutorialTitle1">Bem vindo ao Sam,</string>
+    <string name="appTutorialInfo1"> seu aplicativo de aprendizado criado para auxiliar o aprendizado de crianças autistas. Eu, Sam, vou te ensinar a como usar o nosso aplicativo. Aqui em baixo você pode acessar as abas com os jogos, aconselhamento para os pais, informações sobre mim, Sam, além dessa mesma página.</string>
+    <string name="appTutorialTitle2"></string>
+    <string name="appTutorialInfo2">Na página com os jogos, é possível encontrar as páginas sobre as nossas quatro áreas de metodologia e os nossos jogos.</string>
+    <string name="appTutorialTitle3"></string>
+    <string name="appTutorialInfo3">Nesses quatro botões pequenos na página de jogos, você pode encontrar as lições de aprendizado sobre as quatro áreas, com pequenas dinâmicas.</string>
 
     <string name="aprenderAnimaisTitleInfo1">Uma lista de animais está a espera para conhecer você!</string>
     <string name="aprenderAnimaisInfo1">A partir daqui, você conhecerá animais incríveis e seus sons, além de

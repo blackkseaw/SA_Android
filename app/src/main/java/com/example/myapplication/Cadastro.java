@@ -6,9 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -29,6 +32,8 @@ public class Cadastro extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro);
 
         IniciarComponentes();
+
+
 
         bt_cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +57,20 @@ public class Cadastro extends AppCompatActivity {
         });
     }
 
+//    public void show_pass(View v) {
+//
+//        EditText editPassword = findViewById(R.id.edit_senha);
+//
+//
+//        if (editPassword.) {
+//            editPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+//
+//        } else {
+//            editPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+//
+//
+//        }
+//    }
     private void UsuarioCad(View v){
 
         String nome = edit_nome.getText().toString();
