@@ -54,3 +54,8 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > Equipe criativa.<br>
 
 <img src="https://cdn.discordapp.com/attachments/494996013837320193/909497264559501462/IMG_8985.jpeg" width="160px;" alt="Foto Angelo Bottega"/>
+
+## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Colaboradores
+
+<a href="https://sam-app-aprendizado.netlify.app/">• Site publicado </a> <br>
+<a href="https://github.com/Lerigou/siteSam">• Repositório do site </a>
