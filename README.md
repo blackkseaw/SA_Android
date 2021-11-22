@@ -8,7 +8,8 @@
 [Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
 [Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
 
-> Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P.
+> Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P. <br>
+> **Quer dar uma olhada no estado atual do app? O link do apk para instalação em Android se encontra no final da página em conjunto com a nossa pesquisa de satisfação.
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
 
@@ -55,7 +56,9 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 <img src="https://cdn.discordapp.com/attachments/494996013837320193/909497264559501462/IMG_8985.jpeg" width="160px;" alt="Foto Angelo Bottega"/>
 
-## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Colaboradores
+## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Links
 
 <a href="https://sam-app-aprendizado.netlify.app/">• Site publicado </a> <br>
-<a href="https://github.com/Lerigou/siteSam">• Repositório do site </a>
+<a href="https://github.com/Lerigou/siteSam">• Repositório do site </a> <br>
+<a href="http://gg.gg/SAM-APK">• Link de instalação do apk </a> <br>
+<a href="http://gg.gg/sam-forms">• Pesquisa de satisfação </a>
