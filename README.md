@@ -58,7 +58,7 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 
 ## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Links
 
-<a href="https://sam-app-aprendizado.netlify.app/">• Site publicado </a> <br>
-<a href="https://github.com/Lerigou/siteSam">• Repositório do site </a> <br>
-<a href="http://gg.gg/SAM-APK">• Link de instalação do apk </a> <br>
-<a href="http://gg.gg/sam-forms">• Pesquisa de satisfação </a>
+• <a href="https://sam-app-aprendizado.netlify.app/">Site publicado </a> <br>
+• <a href="https://github.com/Lerigou/siteSam">Repositório do site </a> <br>
+• <a href="http://gg.gg/SAM-APK">Link de instalação do apk </a> <br>
+• <a href="http://gg.gg/sam-forms">Pesquisa de satisfação </a>
