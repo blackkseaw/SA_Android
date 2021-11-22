@@ -58,7 +58,7 @@
         android:paddingRight="10dp"
         android:layout_height="121dp"
         android:fontFamily="@font/letters_learners"
-        android:text="Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo."
+        android:text="@string/main2_text"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="@+id/text5"
         app:layout_constraintEnd_toEndOf="@+id/text5"

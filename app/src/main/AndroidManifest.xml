@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".slide1"></activity>
+        <activity android:name=".Manutencao"></activity>
+        <activity android:name=".slide1" />
         <activity android:name=".Game4OverActivity" />
         <activity android:name=".Game4WinActivity" />
         <activity android:name=".Situacao4Activity" />
@@ -61,7 +62,11 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Menu2Activity" />
-
+        <activity android:name=".Aprender" />
+        <activity android:name=".Tutorial" />
+        <activity android:name=".BodeLearn" />
+        <activity android:name=".AbelhaLearn" />
+        <activity android:name=".CachorroLearn" />
     </application>
 
 </manifest>

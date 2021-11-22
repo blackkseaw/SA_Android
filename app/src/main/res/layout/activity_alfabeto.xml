@@ -27,6 +27,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
+    <TextView
+        android:id="@+id/text18"
+        style="@style/Yellow_container_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/box"
+        android:backgroundTint="#94FFFFFF"
+        android:fontFamily="@font/letters_learners"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/alfabeto"
+        android:textColor="@color/green_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text15"
+        app:layout_constraintVertical_bias="0.788" />
+
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="26dp"
@@ -52,6 +74,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/text19"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/minkynice"
+        android:text="Quer praticar um pouco?"
+        android:textColor="@color/green_dark"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="145dp"
@@ -62,22 +97,20 @@
 
 
     <Button
-        style="?android:attr/borderlessButtonStyle"
-        android:fontFamily="@font/minkynice"
         android:id="@+id/button"
-        android:textColor="@color/green_dark"
-        android:text="@string/mais"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/orangebutton"
         android:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        android:fontFamily="@font/minkynice"
+        android:onClick="call_animals"
+        android:text="@string/mais"
+        android:textColor="@color/green_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintHorizontal_bias="0.248"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintTop_toBottomOf="@+id/text19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

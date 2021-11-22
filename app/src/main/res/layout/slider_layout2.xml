@@ -5,15 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     app:flow_horizontalAlign="center"
-    android:gravity="center_horizontal">
+    android:gravity="center">
 
-
+<!--    <ImageView-->
+<!--        android:id="@+id/titleImage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:src="@drawable/image1"/>-->
+    
     <TextView
-        android:fontFamily="@font/minkynice"
         android:id="@+id/textTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/appTutorialTitle1"
+        android:text="@string/aprenderAnimaisTitleInfo1"
         android:textSize="28dp"
         android:textColor="@color/black"
         android:textAlignment="center"
@@ -22,30 +27,19 @@
         android:gravity="center_horizontal" />
 
     <TextView
-        android:fontFamily="@font/letters_learners"
         android:id="@+id/textDesccription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="15dp"
-        android:text="@string/appTutorialInfo1"
-        android:textSize="25dp"
+        android:text="@string/aprenderAnimaisInfo1"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:textAlignment="center"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:gravity="center_horizontal" />
 
-    <ImageView
-        android:background="@drawable/yellow_light_box"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:id="@+id/titleImage"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/tut1"/>
+
 
 </LinearLayout>

@@ -10,6 +10,8 @@
     <string name="text_home">Aprender brincando é divertido</string>
     <string name="text_popup">A equipe de desenvolvimento recomenda a supervisão de um adulto ou responsável durante o uso do aplicativo.</string>
 
+    <string name="main2_text">Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo.</string>
+
     <!-- Bottom Nav -->
     <string name="title_home">Menu</string>
     <string name="title_notifications">Instruções</string>
@@ -82,6 +84,29 @@
     <string name="aprenderAnimaisInfo2">Ao clicar na imagem do animal, o som dele é emitido, facilitando o reconhecimento do mesmo</string>
     <string name="aprenderAnimaisTitleInfo3">Parabéns!</string>
     <string name="aprenderAnimaisInfo3">Você completou o tutorial, ao clicar em avançar, a tela de aprendizado será acessada</string>
+
+    <string name="alfabeto">A alfabetização é a base para uma educação construtiva, o qual ajuda as pessoas a desenvolver a leitura, a escrita, a comunicação, as ideias e os pensamentos, o letramento utiliza a escrita para resolver problemas do dia a dia, facilitando assim suas práticas sociais podendo produzir gêneros textuais.</string>
+    <string name="logica">O raciocínio lógico é essencial para toda criança, pois ajuda a conquistar melhores rendimentos no processo de ensino e aprendizagem como um todo. A competência é bastante útil para a reflexão e tomada de decisão na vida adulta, tornando o pequeno mais consciente da realidade e do mundo que o cerca.</string>
+    <string name="motor">O desenvolvimento motor é fundamental em nossas ações cotidianas, é o que nos permite locomover e realizar ações que fazem parte da nossa rotina. As habilidades motoras são o que permite à criança correr, brincar, pular e realizar qualquer atividade relacionada ao impulso físico e ao equilíbrio.</string>
+    <string name="social">A interação social traz benefícios para a criança como a troca de linguagens, experiências e culturas; e a criação de princípios e valores como o respeito, a generosidade e a colaboração. E vida em sociedade é importante não apenas para construção de conhecimentos, mas também para o desenvolvimento individual de cada um.</string>
+
+    <string name="soletrandoAbelha">A - B - E - L - H - A</string>
+    <string name="descAbelha">Abelhas são insetos voadores, conhecidos pelo seu importante papel na polinização</string>
+    <string name="vidaAbelha">1 a 2 meses</string>
+    <string name="habitatAbelha">Fazem as colmeias no topo de árvores, cavernas, parte interna de telhados entre outros</string>
+
+    <string name="soletrandoBode">B - O - D - E</string>
+    <string name="descBode">São que tem a sua pele os protege das baixas temperaturas e de predadores</string>
+    <string name="vidaBode">15 a 18 anos</string>
+    <string name="habitatBode">Vivem nas montanhas, com temperaturas baixas</string>
+
+    <string name="soletrandoCachorro">C - A - C - H - O - R - R - O</string>
+    <string name="descCachorro">É um mamífero com dentes afiados, excelente faro e boa audição. Cada uma de suas quatro pernas termina em um pé, ou pata, com cinco dedos. Cada dedo tem base macia e unha. Uma cobertura de pelos mantém o cão aquecido. Ele se refresca colocando a língua para fora da boca.
+        Foi um dos primeiros bichos a serem domesticados e treinados para conviver com as pessoas.</string>
+    <string name="vidaCachorro">10 - 13 anos</string>
+    <string name="habitatCachorro">Estão por todo o mundo, as pessoas têm cães como bichos de estimação, animais de guarda ou de trabalho. Alguns cães não convivem com os seres humanos e estão soltos na natureza, em alguns lugares do mundo.</string>
+
+    <string name="textoManutencao">Esta página está em processo de desenvolvimento, aproveite as outras abas do aplicativo e até a próxima</string>
 
 </resources>
 

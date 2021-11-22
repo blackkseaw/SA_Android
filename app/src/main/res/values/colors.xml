@@ -17,6 +17,8 @@
     <color name="green_light">#72D647</color>
     <color name="green_light_super">#C6FFAD</color>
 
+    <color name="green_inativo">#9E3F7129</color>
+    <color name="green_ativo">#3F7129</color>
 
     <color name="green_light_alf">#4CB61F</color>
     <color name="green_light_super_alf">#94E172</color>
