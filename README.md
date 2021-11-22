@@ -9,7 +9,7 @@
 [Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
 
 > Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P. <br>
-> **Quer dar uma olhada no estado atual do app? O link do apk para instalação em Android se encontra no final da página em conjunto com a nossa pesquisa de satisfação.
+> **Quer dar uma olhada no estado atual do app? O link do apk para instalação em Android se encontra no final da página em conjunto com a nossa pesquisa de satisfação.**
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
 
