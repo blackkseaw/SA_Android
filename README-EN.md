@@ -8,7 +8,7 @@
 [Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
 [Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
 
-> Educational aid application for children with ASD (Autistic Aspect Disorder) developed by 5P.
+> Educational aid application for children with ASD (Autism Spectrum Disorder) developed by 5P.
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909242129455382608/ezgif.com-gif-maker_2.gif" alt="exemplo imagem" width=200>
 
