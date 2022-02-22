@@ -5,8 +5,6 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 [Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
 [Linkedin2]: https://www.linkedin.com/in/marcia-eduarda-ravadelli-38a5991b7/
-[Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
-[Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
 
 > **Quer dar uma olhada no estado atual do app? O link do apk para instalação em Android se encontra no final da página em conjunto com a nossa pesquisa de satisfação.**
 > Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P. <br>
@@ -38,23 +36,6 @@ A 5P é uma equipe formada por cinco alunos da Escola S Florianópolis.
 > 💻<a href="https://github.com/Lerigou">Github</a>
 
 <img src="https://cdn.discordapp.com/attachments/604072921090228234/909827430804488272/unknown.png" width="160px;" alt="Foto Marcia Ravadelli"/>
-  
-### Kauan Fernandes
-> Desenvolvedor de jogos.<br>
-> 🎮[Linkedin][Linkedin4]
-
-<img src="https://cdn.discordapp.com/attachments/604072921090228234/909496181279846490/unknown.png" width="160px;" alt="Foto Kauan Fernandes"/>
-
-### Alice Bredow
-> Equipe criativa.<br>
-> 🎮[Linkedin][Linkedin3]
-
-<img src="https://cdn.discordapp.com/attachments/604072921090228234/909495880023953438/unknown.png" width="160px;" alt="Foto Alice Bredow"/>
-
-### Angelo Bottega
-> Equipe criativa.<br>
-
-<img src="https://cdn.discordapp.com/attachments/494996013837320193/909497264559501462/IMG_8985.jpeg" width="160px;" alt="Foto Angelo Bottega"/>
 
 ## <img src="https://cdn.discordapp.com/attachments/494996013837320193/909491762396020736/catcup2.png" width="30px;" /> Links
 
